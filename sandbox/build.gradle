@@ -15,3 +15,7 @@ repositories {
     jcenter()
     mavenCentral()
 }
+
+dependencies {
+    compile 'org.testng:testng:6.9.10'
+}

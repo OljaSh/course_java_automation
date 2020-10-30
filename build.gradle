@@ -16,4 +16,7 @@ repositories {
 
 dependencies {
     compile project(":sandbox")
+
+    compile 'org.testng:testng:6.9.10'
+
 }
