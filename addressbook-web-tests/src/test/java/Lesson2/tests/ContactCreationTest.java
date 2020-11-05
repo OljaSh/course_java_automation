@@ -1,5 +1,6 @@
-package Lesson2;
+package Lesson2.tests;
 
+import Lesson2.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
