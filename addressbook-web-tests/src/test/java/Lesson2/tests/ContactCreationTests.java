@@ -3,7 +3,7 @@ package Lesson2.tests;
 import Lesson2.model.ContactData;
 import org.testng.annotations.Test;
 
-public class ContactCreationTest extends TestBase{
+public class ContactCreationTests extends TestBase{
 
     @Test
     public void testAddNewContact() throws Exception {

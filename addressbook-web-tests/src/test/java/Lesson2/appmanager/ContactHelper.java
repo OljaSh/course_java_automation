@@ -31,5 +31,21 @@ public class ContactHelper extends BaseHelper{
         click(By.name(submit));
     }
 
+    public void selectFirstContact(){
+        click(By.id("1"));
+    }
+
+    public void initModifyContact(){
+        click(By.xpath("(//img[@alt='Edit'])[1]"));
+    }
+
+    public void submitContactModification() {
+        click(By.name("update"));
+    }
+
+    public void submitContactDeletion() {
+        click(By.xpath("//input[@value='Delete']"));
+        wd.switchTo().alert().accept();
+    }
 
 }

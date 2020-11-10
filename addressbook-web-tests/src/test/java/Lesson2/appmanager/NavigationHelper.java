@@ -16,4 +16,8 @@ public class NavigationHelper extends BaseHelper {
     public void gotoAddNewContact() {
             click(By.linkText("add new"));
     }
+
+    public void gotoHomePage(){
+        click(By.linkText("home"));
+    }
 }
