@@ -31,8 +31,8 @@ public class ContactHelper extends BaseHelper{
         click(By.name(submit));
     }
 
-    public void selectFirstContact(){
-        click(By.id("1"));
+    public void selectContact(){
+        click(By.cssSelector("input[type='checkbox']"));
     }
 
     public void initModifyContact(){
