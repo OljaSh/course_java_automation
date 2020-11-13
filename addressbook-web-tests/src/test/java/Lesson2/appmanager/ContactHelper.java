@@ -2,16 +2,12 @@ package Lesson2.appmanager;
 
 import Lesson2.model.ContactData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.WebDriver;
 public class ContactHelper extends BaseHelper{
 
-
-
-    public ContactHelper(FirefoxDriver wd) {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
-
 
     public void fillContactForm(ContactData contactData) {
         type(By.name("firstname"), contactData.getFirst_name());

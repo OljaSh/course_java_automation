@@ -2,11 +2,11 @@ package Lesson2.appmanager;
 
 import Lesson2.model.GroupData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 
 public class GroupHelper extends BaseHelper {
 
-    public GroupHelper(FirefoxDriver wd) {
+    public GroupHelper(WebDriver wd) {
         super(wd);
     }
 

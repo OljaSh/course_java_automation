@@ -1,19 +1,20 @@
 package Lesson2.tests;
 
 import Lesson2.appmanager.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class TestBase {
 
-    protected final ApplicationManager app = new ApplicationManager();
+    protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod
     public void setUp() throws Exception {
         app.init();
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterMethod
     public void tearDown() throws Exception {
         app.stop();
     }
