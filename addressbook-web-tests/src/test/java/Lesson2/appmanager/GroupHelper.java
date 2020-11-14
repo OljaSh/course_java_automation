@@ -16,7 +16,7 @@ public class GroupHelper extends BaseHelper {
 
     public void submitGroupCreation(String submit) {
         click(By.name(submit));
-    }
+    }e
 
     public void fillGroupForm(GroupData groupData) {
         type(By.name("group_name"), groupData.getName());

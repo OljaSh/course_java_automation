@@ -1,6 +1,6 @@
 package Lesson3.tests;
 
-import Lesson3.Equation;
+import Lesson.Equation;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

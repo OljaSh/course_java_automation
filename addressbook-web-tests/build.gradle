@@ -6,8 +6,10 @@ buildscript {
 }
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
+
 
 repositories {
     jcenter()
@@ -15,12 +17,7 @@ repositories {
 }
 
 dependencies {
-    compile project(":sandbox")
-    compile project(":addressbook-web-tests")
-
     compile 'org.testng:testng:6.9.10'
-
     compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
-    testCompile 'org.seleniumhq.selenium:selenium-java:3.141.59'
-
+    compile 'io.github.bonigarcia:webdrivermanager:4.2.0'
 }

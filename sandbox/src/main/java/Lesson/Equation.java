@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson;
 
 public class Equation {
 

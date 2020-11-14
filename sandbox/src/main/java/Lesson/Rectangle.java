@@ -1,4 +1,4 @@
-package Lesson1;
+package Lesson;
 
 public class Rectangle {
 
